@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift: Through the Era's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Navigation Menu -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">TAYLOR SWIFT</a>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="index.html#bannertwo">Current Day</a>
+        </div>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="bannerone">
+        <h1>Taylor Swift: Through the Era's</h1>
+        <p>Explore Her Musical Journey</p>
+    </header>
+
+    <!-- Static Content -->
+    <section class="static-content">
+        <h2>Want more information?</h2>
+        <p>Learn more about Taylor Swift here! Sign up for emails and extra information!</p>
+        <button onclick="document.getElementById('signup-form').style.display='block'">Sign Up</button>
+        <div id="signup-form" class="form-popup">
+            <form class="form-container">
+                <h2>Sign Up for Taylor Swift updates!</h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="fullname" placeholder="Enter your name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required> 
+                
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn cancel" onclick="document.getElementById('signup-form').style.display='none'">Close</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Debut Era -->
+    <section class="debut-era-container">
+        <div class="debut-era">
+            <h2>Debut Era</h2>
+            <div class="project-gallery">
+                <div class="image-container">
+                    <img src="images/debut2.jpg" alt="Debut">
+                    <div class="image-overlay side-overlay">
+                        <p>During the release of her debut album in 2006, Taylor Swift was a high school student balancing her music career with her studies. She often traveled to Nashville to pursue songwriting, and at 14, she became the youngest signing artist at Big Machine Records, which helped launch her career.</p>
+                    </div>
+                </div>
+                <div class="image-container main-image">
+                    <img src="images/picture2.webp" alt="Debut">
+                    <div class="image-overlay">
+                        <p>Taylor Swift's self-titled debut album, released in 2006, introduced her as a country music prodigy at just 16. With heartfelt lyrics and a mature songwriting style, the album featured hits like "Tim McGraw" and "Teardrops on My Guitar," marking the beginning of Swift's extraordinary career in music.</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="images/debut3.webp" alt="Debut">
+                    <div class="image-overlay side-overlay">
+                        <p>In 2006, Taylor Swift made her debut at the Grand Ole Opry, performing songs from her first album. At the time, she was still living in Pennsylvania and commuting to Nashville, showing her dedication to her music despite being young and new to the industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fearless/Speak Now -->
+    <section class="fearless-speaknow-container">
+        <div class="fearless-speaknow">
+            <h3>Fearless and Speak Now Era</h3>
+            <div class="image-text-layout">
+                <div class="small-image-container">
+                    <img src="images/pic3.webp" alt="fearless">
+                </div>
+                <div class="text-box">
+                    <h4>Fearless Era</h4>
+                    <p>Released in 2008, Taylor Swift's Fearless marked a pivotal moment in her career, blending country and pop with broad mainstream appeal. Featuring hits like "Love Story" and "You Belong with Me," the album earned Swift widespread recognition and multiple Grammy Awards, including Album of the Year. Its introspective lyrics about love, heartbreak, and self-discovery resonated with a global audience, cementing Taylor's status as a musical force.</p>
+                    <div class="hidden-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="second-image-layout">
+                <div class="small-image-container">
+                    <img src="images/picture4.jpg" alt="speaknow">
+                </div>
+                <div class="text-box">
+                    <h4>Speak Now Era</h4>
+                    <p>Released in 2010, Taylor Swift's Speak Now was a bold, entirely self-written album that showcased her growth as both a songwriter and artist. With tracks like “Mine” and “Back to December,” she explored deeper emotional themes of love, regret, and personal reflection. The album's mix of country, pop, and rock elements highlighted her versatility, earning her critical acclaim and solidifying her place as one of the leading voices in contemporary music.</p>
+                    <div class="hidden-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Red/1989-->
+    <section class="red-1989-container">
+        <div class="red-1989">
+            <h3>Red and 1989 Era</h3>
+            <div class="image-text-layout">
+                <div class="small-image-container">
+                    <img src="images/picture5.png" alt="red">
+                </div>
+                <div class="text-box">
+                    <h4>Red Era</h4>
+                    <p>Released in 2012, Red marked a major shift in Taylor Swift's sound, blending country, pop, and rock to explore more complex emotions. With hits like “We Are Never Ever Getting Back Together” and “All Too Well,” the album delved into heartbreak, confusion, and growth. Its mature songwriting and genre experimentation earned critical acclaim and solidified Swift as an artist who could transcend musical boundaries and connect with a global audience.</p>
+                </div>
+            </div>
+            <div class="second-image-layout">
+                <div class="small-image-container">
+                    <img src="images/picture6.webp" alt="1989">
+                </div>
+                <div class="text-box">
+                    <h4>1989 Era</h4>
+                    <p>Released in 2014, 1989 marked Taylor Swift's full transition from country to pop, embracing 80s-inspired synth-pop with tracks like "Shake It Off" and "Blank Space." The album's catchy melodies and bold, personal lyrics about fame, relationships, and reinvention were a commercial and critical success. 1989 won the Grammy for Album of the Year, solidifying Swift's place as one of the most influential pop stars of her generation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reputation Era -->
+    <section class="reputation-era-container">
+        <div class="reputation-era">
+            <h2>Reputation Era</h2>
+            <div class="reputation-layout">
+                <div class="image-container">
+                    <img src="images/repimage.jpg" alt="Reputation Era">
+                    <div class="image-overlay">
+                        <p>Released in 2017, Reputation saw Taylor Swift embracing a darker, more rebellious persona. With tracks like “Look What You Made Me Do” and “Delicate,” the album explored themes of media scrutiny, personal reinvention, and defiance. The mix of electropop and hip-hop influences showcased her artistic evolution, while the album's raw, vulnerable lyrics revealed a more complex side of Swift. Reputation was both a commercial success and a critical turning point in her career.</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="images/repimage2.png" alt="Reputation Era">
+                    <div class="image-overlay">
+                        <p>The drama surrounding Reputation stemmed from Taylor Swift's public feuds and media scrutiny, especially her ongoing conflict with Kanye West. After he released "Famous" in 2016, claiming he made her famous, their feud reignited, with accusations of dishonesty from both sides. Swift also faced harsh criticism for her relationships, leading to a narrative that painted her as a "serial dater." In response, Reputation became a powerful reclamation of her image, with its darker, edgier tone reflecting her frustration with the media and her decision to take control of her story.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Day -->
+    <div id="bannertwo">
+        <header class="bannertwo">
+            <h5>Taylor Swift: Current Day</h5>
+        </header>
+    </div>
+
+    <section class="banner3">
+        <h3> Taylor Swift Current Day</h3>
+        <div class="banner-overlay">
+            <div class="text-box pink-box custom-pink-box">
+                <p>Since the release of Reputation in 2017, Taylor Swift has continued to evolve both musically and personally. In 2019, she released Lover, a shift towards a more upbeat, romantic sound that reflected her happier outlook. She then surprised fans with Folklore and Evermore in 2020, two introspective, indie-folk albums that marked a significant departure from her previous pop sound. These albums, written during the COVID-19 pandemic, were praised for their storytelling and emotional depth, further establishing Swift’s versatility as an artist. She also became more involved in social and political activism, speaking out on issues like LGBTQ+ rights, voter engagement, and equality.</p>
+                <p>In addition to her musical endeavors, Taylor has made headlines for re-recording and releasing her past albums, a move aimed at reclaiming control over her early catalog after the rights to her masters were sold. This process began with the release of Fearless (Taylor's Version) in 2021 and continued with Red (Taylor's Version) in late 2021, with fans eagerly anticipating the re-recordings of her other albums. Swift also ventured into directing, with her short film All Too Well (2021) receiving critical acclaim. In 2023, she embarked on her highly anticipated Eras Tour, celebrating her entire discography. The tour received massive success, with fans from all over the world coming to experience the live renditions of her evolving sound. Today, Taylor Swift continues to push boundaries in music, film, and activism, solidifying her legacy as one of the most influential artists of her generation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Taylor Swift Information | All Rights Reserved | <a href="https://docs.google.com/document/d/14th9qSXwkf1NQZE9XpAIvC_aRbCXHQYVVgZ2tfB-ONE/edit?tab=t.0" target="_blank">Picture Sources</a></p>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+        
+        // Close mobile menu when a nav link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+</html>

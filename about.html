@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Taylor Swift</title>
+    <link rel="stylesheet" href="aboutme-styles.css">
+</head>
+<body>
+    <!-- Sticky Navigation Menu -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">TAYLOR SWIFT</a>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="index.html#reputation">Reputation</a>
+        </div>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+
+    <!-- About Me Content -->
+    <div class="about-container">
+        <div class="about-header">
+            <h1>About Me</h1>
+        </div>
+        
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="images/profile.jpg" alt="Claire Bleckmann - Taylor Swift Fan" class="profile-img">
+            </div>
+            
+            <div class="bio">
+                <h2>Claire Bleckmann</h2>
+                <p>
+                    Hello! My name is Claire Bleckmann and I am a Taylor Swift fan who likes to help others understand her 
+                    music career and her accomplishments throughout her life. 
+                </p>
+                
+                <p>
+                    I am a current fan who loves to listen to her music and explore different activities and ways to connect 
+                    with other Taylor Swift fans!
+                </p>
+                
+                <p>
+                    When I'm not keeping up with Taylor, you can find me listening to music, hanging out with friends, or enjoying
+                    nature. 
+                </p>
+                
+                <p>
+                    My goal is to help others understand who Taylor is and what she has done in her life! She has had so many accomplishments
+                    and I hope to help others understand why she is such a big icon. 
+                </p>
+                
+                <a href="resume.html" class="resume-btn">View My Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nature & Hiking | All Rights Reserved | Images are created by Copilot</p>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+        
+        // Close mobile menu when a nav link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
